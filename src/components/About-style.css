@@ -1,0 +1,33 @@
+.AboutMe {
+  background: var(--primary-background-black);
+
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.AboutMe h2 {
+  font: 22px/30px "opensans-bold", sans-serif;
+  color: var(--primary-white);
+  margin-bottom: 12px;
+  color: var(--primary-blue) !important;
+  text-transform: uppercase;
+}
+
+.AboutMe p {
+  line-height: 30px;
+  color: var(--primary-dark-grey);
+}
+
+.profile-img {
+  position: relative;
+  width: 210px;
+  height: auto;
+  padding-left: 10%;
+}

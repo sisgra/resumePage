@@ -1,0 +1,4 @@
+.content p {
+  line-height: 30px;
+  color: var(--primary-dark-grey);
+}

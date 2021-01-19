@@ -1,0 +1,23 @@
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  background: var(--primary-grey);
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.video-container {
+  padding-right: 10%;
+}
+
+.text-container {
+  padding-left: 10%;
+}
+
+.text-container p {
+  color: var(--primary-blue-light);
+}

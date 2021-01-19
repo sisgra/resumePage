@@ -1,0 +1,10 @@
+.skills h3 {
+  padding-top: 5%;
+  text-transform: uppercase;
+  color: var(--primary-black);
+  text-align: center;
+}
+
+.skills {
+  background-color: var(--primary-light-grey);
+}

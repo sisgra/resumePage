@@ -1,38 +1,85 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+:root {
+  --primary-orange: #eb5408;
+  --primary-orange-dark: #da4f0a;
+  --primary-blue: #089feb;
+  --primary-blue-light: #3d6098;
+  --primary-blue-dark: #008bda;
+  --primary-white: #e7e7e7;
+  --primary-yellow: #f9ab00;
+  --primary-red: #f04b4c;
+  --primary-hover-red: #f33501;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-black: #000000;
+  --primary-background-black: #2b2b2b;
+  --primary-transparent-black: #rgba(0, 0, 0, 0.7);
+  --primary-green: green;
+}
+
+body {
+  font-family: "Dosis", sans-serif;
+  /*font-family: "Roboto Condesed" sans-serif !important;*/
+}
+
+.popupmodal {
+  max-width: 500px;
+  max-height: 90%;
+  overflow: auto;
+  background: #fff;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.link-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -65px;
+  margin-top: -15px;
+}
+
+.popupmodal p {
+  font: 14px/24px "opensans-regular", sans-serif;
+  color: #838c95;
+  margin-bottom: 12px;
+}
+
+.popupmodal .link-box {
+  padding: 18px 36px;
+  background: #111;
+  border-radius: 1.5%;
   text-align: center;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.popupmodal .link-box a {
+  color: #fff;
+  font: 11px/21px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.popupmodal button {
+  padding: 18px 36px;
+  background: var(--primary-hover-red);
+  text-align: left #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.popupmodal button {
+  color: #fff;
+  font: 11px/21px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ModalWindow {
+  position: relative;
 }

@@ -1,0 +1,8 @@
+.card-body {
+  align-items: center;
+  background-image: url("../SpaceMSS/1.png");
+}
+
+.card-title {
+  font-weight: bold;
+}
