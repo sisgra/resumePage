@@ -7,7 +7,7 @@ import './SectionSkills-style.css';
 
 const SectionSkills =()=>{
     return (
-        <div className="container-fluid">
+        <div className="container-fluid" id="skills">
             <div className ="skills mt-5">
                 <h3>Skills</h3>
             <div className="row">

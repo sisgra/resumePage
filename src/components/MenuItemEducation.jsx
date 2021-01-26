@@ -1,6 +1,4 @@
 import React from 'react';
-import {withRouter} from 'react-router-dom';
-
 import './Menu-itemEducation.style.css';
 
 const MenuItemEducation=({program,institution,faculty,descriptionEducation,startDate,endDate})=>(
@@ -9,8 +7,7 @@ const MenuItemEducation=({program,institution,faculty,descriptionEducation,start
         <h3 className='Program'>{program}</h3>
         <p>{startDate}<span> &bull; </span>{endDate} </p>
         <p>{descriptionEducation}</p>
-        <hr></hr>
-        
+        <hr></hr>       
     </div>
 );
 

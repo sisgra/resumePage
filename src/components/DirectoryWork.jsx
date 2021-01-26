@@ -1,5 +1,4 @@
 import React from 'react';
-import './DirectoryWork-style.css';
 import MenuItemWork from './MenuItemWork';
 
 class DirectoryWork extends React.Component{
@@ -14,7 +13,7 @@ class DirectoryWork extends React.Component{
                     employment: 'Noir Dance Company',
                     startDate: "2017",
                     endDate: "2021",
-                    descriptionWork:'Uneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bum'
+                    descriptionWork:"Creating space for contemporary dance performances. Key responsibilities : Administrative duties, including answering email/ phone enquiries Working as part of a team with other artist studio workers,Researching projects or ideas.Coordinate the rehearsal activities of guest choreographers and other artists working with the dancers. Keeping a studio organized or an artist's schedule organized. Coordinating communication with representatives from galleries, studios, theaters. Researching projects or ideas."
                 },
                 {   
                     id:2,
@@ -22,16 +21,8 @@ class DirectoryWork extends React.Component{
                     employment: 'Partners Group Finance',
                     startDate: "2014",
                     endDate: "2015",
-                    descriptionWork:'Uneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bum'
+                    descriptionWork:'Responsible for helping managers keep day-to-day operations running. Create reports,assisting the manager in organizing, planning.'
                 },
-                {   
-                    id:3,
-                    position: 'Mechanical Ingeneering',
-                    employment: 'Slovak University of Technology',
-                    startDate: "2013",
-                    endDate: "2016",
-                    descriptionWork:'Uneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bumUneemehe beheme pereme mehehe nehehe dereme nohama bum bum'
-                }
             ]
         };
     }

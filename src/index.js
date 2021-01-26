@@ -3,12 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import Navbar from './components/Navbar'
+
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from './components/About';
-import Skills from './components/SectionSkills';
-import Portfolio from './components/ModalSection';
 
 ReactDOM.render(
   <React.StrictMode>

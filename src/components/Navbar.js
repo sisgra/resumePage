@@ -6,7 +6,7 @@ import {faBars} from "@fortawesome/free-solid-svg-icons"
 
 const navbar =()=>{
     return (
-        <nav className="navbar fixed-top navbar-expand-lg ">
+        <nav className="navbar fixed-top navbar-expand-md ">
           <div className="container">
           <button className="navbar-toggler" type="button" 
           data-toggle="collapse" data-target="#navbarSupportedContent" 
@@ -17,24 +17,19 @@ const navbar =()=>{
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <li className="nav-item active">
-                      <Link smooth={true} to='home'  className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>
-                    
+                      <Link smooth={true} to='home'  className="nav-link" href="#">Home <span className="sr-only">(current)</span></Link>    
                   </li>
                   <li className="nav-item">
                     <Link smooth={true} to='about' className="nav-link" href="#">About</Link>
                   </li>
-                  <li className="nav-item">
-                    
-                    <Link smooth={true} to='skills'  className="nav-link" href="#">Skills</Link>
-                    
+                  <li className="nav-item">                    
+                    <Link smooth={true} to='education' offset={-100} className="nav-link" href="#">Education</Link>                    
+                  </li>
+                  <li className="nav-item">                    
+                    <Link smooth={true} to='skills'  className="nav-link" href="#">Skills</Link>  
                   </li>
                   <li className="nav-item">
-                    
-                    <Link smooth={true} to='portfolio'  className="nav-link" href="#">Portfolio</Link>
-                    
-                  </li>
-                  <li className="nav-item">
-                    <Link smooth={true} to='contact'  className="nav-link" href="#">Contacts</Link>
+                    <Link smooth={true} to='portfolio' className="nav-link" href="#">Portfolio</Link>
                   </li>
                 </ul>
             </div>

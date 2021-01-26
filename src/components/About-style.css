@@ -1,6 +1,5 @@
 .AboutMe {
   background: var(--primary-background-black);
-
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
@@ -12,22 +11,39 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+@media (max-width: 768px) {
+  .photo-wrap {
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
 .AboutMe h2 {
   font: 22px/30px "opensans-bold", sans-serif;
-  color: var(--primary-white);
+
   margin-bottom: 12px;
-  color: var(--primary-blue) !important;
+  color: var(--primary-blue-light) !important;
   text-transform: uppercase;
 }
 
 .AboutMe p {
   line-height: 30px;
-  color: var(--primary-dark-grey);
+  color: var(--primary-grey);
+  text-align: justify;
 }
 
 .profile-img {
   position: relative;
-  width: 210px;
+  width: 310px;
   height: auto;
   padding-left: 10%;
 }

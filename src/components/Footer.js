@@ -3,6 +3,7 @@ import './Footer-style.css';
 
 const Footer =()=>{
     return (
+      <section>
         <div className="footer">
             <div className="container">
               <p>  This site is developed in Reactjs.</p>
@@ -10,7 +11,8 @@ const Footer =()=>{
                 {new Date().getFullYear()}&nbsp;| Silvia
               </p>
             </div>
-        </div>       
+        </div>    
+        </section>   
     )
 }
 

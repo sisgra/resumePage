@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import SectionPortfolio from './components/SectionPortfolio';
 import PortfolioVideo from './components/PortfolioVideo';
 import PortfolioVideo2 from './components/PortfolioVideo2';
+import PortfolioVideo3 from './components/PortfolioVideo3';
 
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
       <SectionWork/>
       <SectionSkills/>
       <SectionPortfolio/>
-      <PortfolioVideo2/>
       <PortfolioVideo/>
+      <PortfolioVideo2/>
+      <PortfolioVideo3/> 
       <Footer/>
     </div>
   );
