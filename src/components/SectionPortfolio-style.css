@@ -18,6 +18,29 @@
   padding-left: 10%;
 }
 
+@media (max-width: 768px) {
+  .video-container {
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 0rem !important;
+  }
+}
+
 .text-container p {
+  margin-top: 1rem;
   color: var(--primary-blue-light);
+  text-align: justify;
+}
+
+.project-example {
+  padding-top: 5%;
+  color: var(--primary-blue-light);
+  text-transform: uppercase;
+  padding-left: 35%;
+}
+
+@media (max-width: 768px) {
+  .project-example {
+    padding-left: 25%;
+  }
 }
