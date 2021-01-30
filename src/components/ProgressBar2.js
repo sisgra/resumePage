@@ -22,8 +22,6 @@ const ProgressBar2 = (props) => {
       color: 'white', 
     }
 
-    
-  
     return (
       <div style={containerStyles}>
         <div style={fillerStyles}>

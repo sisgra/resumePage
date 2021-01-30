@@ -5,13 +5,12 @@
 
 .portfolio {
   background: var(--primary-grey);
-  padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
 }
 
 .video-container {
-  padding-right: 10%;
+  margin-left: 4rem;
 }
 
 .text-container {
@@ -19,10 +18,14 @@
 }
 
 @media (max-width: 768px) {
-  .video-container {
-    position: relative;
+  .video-container-info {
     padding-top: 2rem;
-    padding-left: 0rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem;
+  }
+
+  .video-container-figma {
+    padding-left: 2rem !important;
   }
 }
 

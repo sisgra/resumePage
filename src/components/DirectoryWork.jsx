@@ -4,7 +4,6 @@ import MenuItemWork from './MenuItemWork';
 class DirectoryWork extends React.Component{
     constructor(){
         super();
-
         this.state={
             sections:[
                 {   
@@ -13,7 +12,7 @@ class DirectoryWork extends React.Component{
                     employment: 'Noir Dance Company',
                     startDate: "2017",
                     endDate: "2021",
-                    descriptionWork:"Creating space for contemporary dance performances. Key responsibilities : Administrative duties, including answering email/ phone enquiries Working as part of a team with other artist studio workers,Researching projects or ideas.Coordinate the rehearsal activities of guest choreographers and other artists working with the dancers. Keeping a studio organized or an artist's schedule organized. Coordinating communication with representatives from galleries, studios, theaters. Researching projects or ideas."
+                    descriptionWork:"Creating space for contemporary dance performances. Key responsibilities: Administrative duties, including answering email/ phone enquiries Working as part of a team with other artist studio workers, researching projects or ideas. Coordinate the rehearsal activities of guest choreographers and other artists working with the dancers. Keeping a studio organized or an artist's schedule organized. Coordinating communication with representatives from galleries, studios, theaters. Researching projects or ideas."
                 },
                 {   
                     id:2,
@@ -21,7 +20,7 @@ class DirectoryWork extends React.Component{
                     employment: 'Partners Group Finance',
                     startDate: "2014",
                     endDate: "2015",
-                    descriptionWork:'Responsible for helping managers keep day-to-day operations running. Create reports,assisting the manager in organizing, planning.'
+                    descriptionWork:'Responsible for helping managers keep day-to-day operations running. Create reports, assisting the manager in organizing and planning.'
                 },
             ]
         };

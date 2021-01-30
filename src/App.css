@@ -23,6 +23,19 @@
 body {
   font-family: "Dosis", sans-serif;
   /*font-family: "Roboto Condesed" sans-serif !important;*/
+  width: 100%;
+  margin: 0px;
+  padding: 0%;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0%;
+    overflow-x: hidden;
+  }
 }
 
 .popupmodal {
@@ -78,8 +91,4 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
-}
-
-.ModalWindow {
-  position: relative;
 }
