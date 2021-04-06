@@ -2,17 +2,17 @@ import React from 'react'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import About from './components/About';
-import SectionEducation from './components/SectionEducation';
-import SectionWork from './components/SectionWork'
-import SectionSkills from './components/SectionSkills';
-import SectionPortfolio from './components/SectionPortfolio';
-import PortfolioVideo from './components/PortfolioVideo';
-import PortfolioVideo2 from './components/PortfolioVideo2';
-import PortfolioVideo3 from './components/PortfolioVideo3';
-import Footer from './components/Footer'
+import Navbar from './sections/navbar/Navbar';
+import Header from './sections/header/Header';
+import About from './sections/about/About';
+import SectionEducation from './sections/education/SectionEducation';
+import SectionWork from './sections/work/SectionWork';
+import SectionSkills from './sections/skills/SectionSkills';
+import SectionPortfolio from './sections/portfolio/SectionPortfolio';
+import PortfolioVideo from './sections/portfolio/PortfolioVideo';
+import PortfolioVideo2 from './sections/portfolio/PortfolioVideo2';
+import PortfolioVideo3 from './sections/portfolio/PortfolioVideo3';
+import Footer from './sections/footer/Footer'
 
 function App() {
   return (

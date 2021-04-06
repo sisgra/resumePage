@@ -1,0 +1,72 @@
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  background: var(--primary-grey);
+  padding-top: 2rem;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.text-container {
+  padding-right: 10%;
+}
+
+.text-container p {
+  color: var(--primary-background-black);
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.text-container-space p {
+  text-align: justify;
+  color: var(--primary-background-black);
+}
+
+.text-container-landing p {
+  text-align: justify;
+  color: var(--primary-background-black);
+}
+
+@media (max-width: 768px) {
+  .text-container-landing {
+    padding-left: 0rem;
+    padding-right: 2rem !important;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .text-container-landing {
+    padding-left: 2rem;
+    padding-right: 2rem !important;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 577px) {
+  .text-container-space {
+    padding-left: 2rem;
+    padding-right: 2rem !important;
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-container-space {
+    position: relative;
+    padding-right: 2rem !important;
+    padding-top: 2rem;
+  }
+  .video-container {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .video-container-figma {
+    padding-right: 2rem;
+    padding-top: 2rem;
+  }
+}

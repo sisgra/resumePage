@@ -1,0 +1,49 @@
+.video-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio {
+  background: var(--primary-grey);
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.video-container {
+  margin-left: 4rem;
+}
+
+.text-container {
+  padding-left: 10%;
+}
+
+@media (max-width: 768px) {
+  .video-container-info {
+    padding-top: 2rem;
+    padding-left: 2rem !important;
+    padding-right: 2rem;
+  }
+
+  .video-container-figma {
+    padding-left: 2rem !important;
+  }
+}
+
+.text-container p {
+  margin-top: 1rem;
+  color: var(--primary-blue-light);
+  text-align: justify;
+}
+
+.project-example {
+  padding-top: 5%;
+  color: var(--primary-blue-light);
+  text-transform: uppercase;
+  padding-left: 35%;
+}
+
+@media (max-width: 768px) {
+  .project-example {
+    padding-left: 25%;
+  }
+}

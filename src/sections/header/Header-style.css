@@ -1,0 +1,67 @@
+.header-wraper {
+  position: relative;
+  /*top: 5rem;*/
+  background: url(./header8_change_3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 12rem;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+  font-family: "Roboto Condesed" sans-serif;
+}
+
+@media (max-width: 768px) {
+  .main-info {
+    position: relative;
+    top: 6rem;
+  }
+}
+
+.main-info h1 {
+  text-transform: uppercase;
+  color: var(--primary-grey);
+}
+
+/*Typed text*/
+
+.typed-text {
+  font-size: 3rem;
+  color: var(--primary-white);
+}
+
+@media (max-width: 768px) {
+  .typed-text {
+    font-size: 1.2rem !important;
+  }
+}
+
+.custom-shape-divider-bottom-1611150931 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1611150931 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 35px;
+}
+
+.custom-shape-divider-bottom-1611150931 .shape-fill {
+  fill: #2b2b2b;
+}
