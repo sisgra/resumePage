@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from './image4.JPG'
+import profile from './profile.jpg'
 import './About-style.css'
 
 const About =()=>{

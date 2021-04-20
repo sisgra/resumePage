@@ -13,6 +13,7 @@ import PortfolioVideo from './sections/portfolio/PortfolioVideo';
 import PortfolioVideo2 from './sections/portfolio/PortfolioVideo2';
 import PortfolioVideo3 from './sections/portfolio/PortfolioVideo3';
 import Footer from './sections/footer/Footer'
+import ContactFormular from './sections/contact_form/contactForm';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <PortfolioVideo/>
       <PortfolioVideo2/>
       <PortfolioVideo3/> 
+      <ContactFormular/>
       <Footer/>
     </div>
   );
