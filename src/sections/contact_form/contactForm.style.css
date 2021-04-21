@@ -1,5 +1,11 @@
 .contact-formular {
   width: 400px;
-  margin: 0 auto;
   height: 100vh;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .contact-formular {
+    width: 230px;
+  }
 }
