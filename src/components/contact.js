@@ -13,6 +13,7 @@ const Contact = () => {
     e.preventDefault();
     setLoader(true);
 
+    
     db.collection("contacts")
       .add({
         name: name,

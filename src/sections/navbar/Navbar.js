@@ -22,14 +22,17 @@ const navbar =()=>{
                   <li className="nav-item">
                     <Link smooth={true} to='about' className="nav-link" href="#">About</Link>
                   </li>
-                  <li className="nav-item">                    
-                    <Link smooth={true} to='education' offset={-100} className="nav-link" href="#">Education</Link>                    
+                  <li className="nav-item"> 
+                    <Link smooth={true} to='portfolio' offset={-80} className="nav-link" href="#">Portfolio</Link>                                
                   </li>
-                  <li className="nav-item">                    
+                  <li className="nav-item"> 
+                    <Link smooth={true} to='education' offset={-100} className="nav-link" href="#">Education</Link>                        
+                  </li>
+                  <li className="nav-item">
                     <Link smooth={true} to='skills'  className="nav-link" href="#">Skills</Link>  
                   </li>
                   <li className="nav-item">
-                    <Link smooth={true} to='portfolio' offset={-80} className="nav-link" href="#">Portfolio</Link>
+                    <Link smooth={true} to='contact-formular'  className="nav-link" href="#">Contact</Link>  
                   </li>
                 </ul>
             </div>

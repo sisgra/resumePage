@@ -10,7 +10,7 @@ const SectionSkills =()=>{
         <div className="container-fluid" id="skills">
             <div className ="skills mt-5">
                 <h3>Skills</h3>
-            <div className="row">
+            <div className="row ml-5">
                 <div className="col-sm ">
                 <SkuskaSkills/>
                 </div>

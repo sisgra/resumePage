@@ -14,6 +14,8 @@ import PortfolioVideo2 from './sections/portfolio/PortfolioVideo2';
 import PortfolioVideo3 from './sections/portfolio/PortfolioVideo3';
 import Footer from './sections/footer/Footer'
 import ContactFormular from './sections/contact_form/contactForm';
+import AboutSecond from './sections/about/About_second';
+
 
 function App() {
   return (
@@ -21,13 +23,14 @@ function App() {
       <Navbar/>
       <Header/>
       <About/>
-      <SectionEducation/>
-      <SectionWork/>
-      <SectionSkills/>
       <SectionPortfolio/>
       <PortfolioVideo/>
       <PortfolioVideo2/>
-      <PortfolioVideo3/> 
+      <PortfolioVideo3/>    
+      <AboutSecond/>
+      <SectionEducation/>
+      <SectionWork/>
+      <SectionSkills/>
       <ContactFormular/>
       <Footer/>
     </div>

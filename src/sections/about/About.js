@@ -12,7 +12,7 @@ const About =()=>{
                             <img className="profile-img" src={profile} alt="author"/>
                         </div>
                      </div>
-                    <div className=" col-lg-6 offset-md-1 col-md-12 col-sm-12 col-xm-12">   
+                    <div className=" col-lg-5 offset-md-2 col-md-12 col-sm-12 col-xm-12">   
                         <div className="about-text">          
                         <h2 className="about-heading">about me</h2>
                         <p>As a graduate of a technical university with a focus on informatization,
@@ -21,8 +21,7 @@ const About =()=>{
                          That's why I started educating myself in web development and 
                          how to create simple android applications.
                          </p>
-                        <h2 className="about-heading">Contact Me</h2>
-                        <p>E-mail: grachova.silvia@gmail.com</p>
+                        <h2 className="about-heading">GIT HUB</h2>
                         <p>explore my code on GitHub.</p>
                         <a href="https://github.com/sisgra" className="btn btn-secondary btn-lg active" role="button" aria-pressed="true">GitHub</a>
                     </div>
