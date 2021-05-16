@@ -18,7 +18,7 @@ textarea {
   border: 1px solid lightgray;
   /* border: none; */
   background: #fff;
-  font-size: 15px;
+  font-size: 14px;
   color: rgb(0, 0, 32);
   outline: none;
 }
@@ -29,8 +29,8 @@ textarea:focus {
 }
 
 .form > textarea {
-  height: 120px;
-  max-width: 400px;
+  height: 115px;
+  max-width: 470px;
   min-height: 100px;
 }
 

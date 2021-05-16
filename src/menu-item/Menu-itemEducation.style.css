@@ -1,9 +1,36 @@
 .content p {
   line-height: 30px;
-  color: var(--primary-dark-grey);
+  color: var(--primary-black);
   text-align: justify;
+  padding-bottom: 2vh;
 }
 
-.Education h3 {
-  font-size: 1.7rem;
+.Education {
+  background-color: var(--primary-grey);
+}
+
+h5 {
+  color: var(--primary-brown-dark);
+}
+
+@media (max-width: 580px) {
+  .work {
+    width: 350px;
+    margin: auto;
+  }
+  .education {
+    width: 350px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 421px) {
+  .work {
+    width: 250px;
+    margin: auto;
+  }
+  .education {
+    width: 250px;
+    margin: auto;
+  }
 }

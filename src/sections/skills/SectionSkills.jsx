@@ -7,17 +7,14 @@ import './SectionSkills-style.css';
 
 const SectionSkills =()=>{
     return (
-        <div className="container-fluid" id="skills">
-            <div className ="skills mt-5">
-                <h3>Skills</h3>
-            <div className="row ml-5">
-                <div className="col-sm ">
+        <div className="container-fluid mb-5 " id="skills">   
+            <div className="row justify-content-center">
+                <div className="col-lg-5 col-md-12 col-sm-8 col-xs-8">
                 <SkuskaSkills/>
                 </div>
-                <div className=" col-sm">
+                <div className="col-lg-5 col-md-12 col-sm-8 col-xs-8">
                 <SkuskaSkills2/>
-                </div>
-                </div>
+                </div>            
             </div>
         </div>
         

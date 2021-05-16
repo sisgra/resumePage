@@ -2,9 +2,9 @@ const ProgressBar = (props) => {
   const { bgcolor, completed,label } = props;
 
   const containerStyles = {
-    height: 20,
-    width: '70%',
-    backgroundColor: "#666666",
+    height: 22,
+    width: '80%',
+    backgroundColor:' #ccb494',
     borderRadius: 50,
     margin: 50
   }
@@ -18,7 +18,7 @@ const ProgressBar = (props) => {
   }
 
   const labelStyles = {
-    padding: 5,
+    padding: 10,
     color: 'white',
     
   }
@@ -29,7 +29,7 @@ const ProgressBar = (props) => {
       <div style={fillerStyles}>
         <span style={labelStyles}>{`${completed}%`}</span>
       </div>
-      <h4>{label}</h4>
+      <h6>{label}</h6>
     </div>
   );
 };

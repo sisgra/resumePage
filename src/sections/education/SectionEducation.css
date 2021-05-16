@@ -1,18 +1,24 @@
 .Education h3 {
-  color: var(--primary-orange-dark);
+  color: var(--primary-background-black);
 }
 
 .Education h2 {
-  color: var(--primary-orange-dark);
+  color: var(--primary-white);
   padding-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
-  .Education {
-    font-size: 0.9rem;
-    position: relative;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+.upper-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper-section {
+  min-height: 8vh;
+  width: 100%;
+  background: var(--primary-white);
+}
+
+p {
+  text-align: center;
 }

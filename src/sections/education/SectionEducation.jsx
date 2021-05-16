@@ -5,13 +5,16 @@ import './SectionEducation.css';
 const SectionEducation =()=>{
     return (
         <div className="container-fluid" id="education">
-            <div className ="Education mt-5">
-                <div className="row">
-                    <div className="col-lg-2 offset-md-2 col-xm-12 mt-5">
-                        <h2>Education</h2>
-                    </div>
-                    <div className=" col-lg-7  col-xm-12">
+            <div class="upper-section">
+                <p>EDUCATION</p>
+            </div>
+            <div className ="Education pt-5 pb-5 ">
+                <div className="row justify-content-center">
+                    <div className=" col-lg-7 col-md-7 col-sm-7">
+
+                        <div className='education'>
                         <DirectoryEducation/>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,19 @@
+@media (max-width: 995px) {
+  .contact-img {
+    display: none;
+  }
+}
+
+@media (max-width: 580px) {
+  .contact-form {
+    width: 250px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 337px) {
+  .contact-form {
+    width: 200px;
+    margin: auto;
+  }
+}

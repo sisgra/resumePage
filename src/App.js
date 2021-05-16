@@ -8,30 +8,35 @@ import About from './sections/about/About';
 import SectionEducation from './sections/education/SectionEducation';
 import SectionWork from './sections/work/SectionWork';
 import SectionSkills from './sections/skills/SectionSkills';
-import SectionPortfolio from './sections/portfolio/SectionPortfolio';
-import PortfolioVideo from './sections/portfolio/PortfolioVideo';
-import PortfolioVideo2 from './sections/portfolio/PortfolioVideo2';
-import PortfolioVideo3 from './sections/portfolio/PortfolioVideo3';
+
 import Footer from './sections/footer/Footer'
-import ContactFormular from './sections/contact_form/contactForm';
 import AboutSecond from './sections/about/About_second';
+import MyVideo from './sections/my_video/myVideo';
+import Portfolio from './sections/portfolio/Portfolio';
+import ContactSection from './sections/contact_form/ContactSection';
+import Code from './sections/code/code';
+import Navbar2 from './sections/navbar/Navbar2';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar2/>
       <Header/>
       <About/>
-      <SectionPortfolio/>
-      <PortfolioVideo/>
-      <PortfolioVideo2/>
-      <PortfolioVideo3/>    
-      <AboutSecond/>
-      <SectionEducation/>
-      <SectionWork/>
+      <MyVideo/> 
       <SectionSkills/>
-      <ContactFormular/>
+      <AboutSecond/>
+      
+      <Portfolio/>
+        
+      
+      <SectionWork/>
+      
+      <SectionEducation/>
+      
+     <ContactSection/>
       <Footer/>
     </div>
   );

@@ -12,26 +12,11 @@
   margin-left: auto;
 }
 
-@media (max-width: 768px) {
-  .photo-wrap {
-    position: relative;
-  }
-}
-
-@media (max-width: 768px) {
-  .about-text {
-    position: relative;
-    margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-}
-
 .AboutMe h2 {
   font: 22px/30px "opensans-bold", sans-serif;
 
   margin-bottom: 12px;
-  color: var(--primary-blue-light) !important;
+  color: var(--primary-white) !important;
   text-transform: uppercase;
 }
 
@@ -45,5 +30,72 @@
   position: relative;
   width: 310px;
   height: auto;
-  padding-left: 17%;
+}
+
+.profile-img2 {
+  position: relative;
+  width: 310px;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .profile-img2 {
+    display: none;
+  }
+}
+
+@media (max-width: 1147px) {
+  .profile-img2 {
+    padding-top: 2vh;
+  }
+}
+
+@media (max-width: 990px) {
+  .profile-img {
+    width: 280px;
+  }
+}
+
+@media (max-width: 778px) {
+  .profile-img {
+    width: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-text {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 461px) {
+  .about-text {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-text {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 350px) {
+  .about-text {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

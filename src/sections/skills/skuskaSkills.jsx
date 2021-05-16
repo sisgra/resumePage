@@ -3,13 +3,13 @@ import ProgressBar from './ProgressBar';
 
 const testData = [
   
-  {label:"HTML", bgcolor: "#da4f0a", completed: 60 },
-  {label:"CSS",bgcolor: "#da4f0a", completed: 60 },
-  {label:"JavaScript",bgcolor: "#da4f0a", completed: 40 },
-  {label:"ReactJS",bgcolor: "#da4f0a", completed: 60 },
-  {label:"Bootstrap",bgcolor: "#da4f0a", completed: 60},
-  {label:"FireBase",bgcolor: "#f04b4c", completed: 40 },
-  {label:"Figma",bgcolor: "#da4f0a", completed: 60 }
+  {label:"HTML", bgcolor: "#666666", completed: 80 },
+  {label:"CSS",bgcolor: "#666666", completed: 80 },
+  {label:"JavaScript",bgcolor: "#666666", completed: 50 },
+  {label:"ReactJS",bgcolor: "#666666", completed: 60 },
+  {label:"Bootstrap",bgcolor: "#666666", completed: 60},
+  {label:"FireBase",bgcolor: "#666666", completed: 40 },
+  
 ];
 
 function SkuskaSkills() {

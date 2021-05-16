@@ -1,0 +1,11 @@
+.portfolio {
+  background: var(--primary-grey);
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+.text-container p {
+  margin-top: 1rem;
+  color: var(--primary-transparent-black);
+  text-align: justify;
+}

@@ -6,13 +6,13 @@ const AboutSecond =()=>{
     return (
         <div id='about' className="container-fluid">
             <div className ="AboutMe">
-                <div className="row">
-                    <div className="col-lg-3 offset-md-1 col-sm-1 col-xm-12">
+                <div className="row justify-content-center">
+                    <div className="col-lg-3 offset-lg-1 col-md-0 col-sm-0 col-xs-0">
                         <div className="photo-wrap ">
-                            <img className="profile-img" src={profile2} alt="author"/>
+                            <img className="profile-img2" src={profile2} alt="author"/>
                         </div>
                      </div>
-                    <div className=" col-lg-5 offset-md-2 col-md-12 col-sm-12 col-xm-12">   
+                    <div className="col-lg-5 offset-lg-1 offset-md-0 col-md-9 col-sm-9 col-xs-3">   
                         <div className="about-text">          
                         <h2 className="about-heading">A FEW WORDS</h2>
                         <p>Building a new website is like setting the foundation for a house. 

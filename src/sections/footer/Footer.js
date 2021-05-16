@@ -6,7 +6,6 @@ const Footer =()=>{
       <section>
         <div className="footer">
             <div className="container">
-              <p>  This site is developed in Reactjs.</p>
               <p className="pt-3 text-center">
                 {new Date().getFullYear()}&nbsp;| Silvia
               </p>

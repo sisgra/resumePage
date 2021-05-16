@@ -1,11 +1,7 @@
-.skills h3 {
-  padding-top: 5%;
-  text-transform: uppercase;
-  color: var(--primary-black);
-  text-align: center;
+h6 {
+  padding-top: 5px;
 }
 
-.skills {
-  background-color: var(--primary-light-grey);
-  padding-bottom: 2rem;
+h5 {
+  padding-top: 5px;
 }
